@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "JsonScript", "JsonScript\JsonScript.shproj", "{8BF54D53-5CC0-4EF9-B7B2-4D63F1EE0567}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		JsonScript\JsonScript.projitems*{8bf54d53-5cc0-4ef9-b7b2-4d63f1ee0567}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E260C96A-3212-4A27-B67D-F93E04EC6E2F}
+	EndGlobalSection
+EndGlobal
