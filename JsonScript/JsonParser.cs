@@ -116,7 +116,7 @@ namespace IngameScript
             private static string CreateRegex(Type returnType, JsonParserOptions options, bool firstLevel = true)
             {
                 string result;
-                IEnumerable<dynamic> properties;
+                IEnumerable<JsonParserProperty> properties;
 
                 if (returnType == typeof(string) || returnType == typeof(DateTime))
                 {
@@ -176,7 +176,7 @@ namespace IngameScript
             public static string Serialize(object value, Type inputType, JsonParserOptions options)
             {
                 string result;
-                IEnumerable<dynamic> properties;
+                IEnumerable<JsonParserProperty> properties;
 
                 if (inputType == typeof(DateTime))
                 {
