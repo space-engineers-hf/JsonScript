@@ -178,7 +178,11 @@ namespace IngameScript
                 string result;
                 IEnumerable<JsonParserProperty> properties;
 
-                if (inputType == typeof(DateTime))
+                if (value == null)
+                {
+                    result = "null";
+                }
+                else if (inputType == typeof(DateTime))
                 {
                     var dateTime = ((DateTime)value);
                     var dateTimeUtc = dateTime.ToUniversalTime();
